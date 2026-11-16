@@ -2,6 +2,13 @@
 
 **English** | [Deutsch](#deutsch)
 
+## v1.1 – 2026-11-03
+
+- New: **FM sound.** OPTIONEN has a new row TON (ORIG. / FM). FM is the sound of the Japanese Master System (YM2413) and switches at once; the setting is stored in battery RAM.
+- The patch contains the FM sound driver of the Japanese version; only the English ROM is needed.
+- The header region of the patched ROM is now Japan, so that emulators such as ares switch the FM chip on.
+- The options window got one more row.
+
 ## v1.0 – 2026-10-30
 
 First release.
@@ -14,6 +21,13 @@ First release.
 ---
 
 <a id="deutsch"></a>
+
+## v1.1 – 03.11.2026
+
+- Neu: **FM-Klang.** OPTIONEN hat eine neue Zeile TON (ORIG. / FM). FM ist der Klang des japanischen Master Systems (YM2413) und schaltet sofort um; die Einstellung liegt im Batterie-RAM.
+- Der Patch enthält den FM-Soundtreiber der japanischen Fassung; nötig ist nur das englische ROM.
+- Die Header-Region des gepatchten ROMs ist jetzt Japan, damit Emulatoren wie ares den FM-Chip einschalten.
+- Das Optionsfenster hat eine Zeile mehr.
 
 ## v1.0 – 30.10.2026
 
