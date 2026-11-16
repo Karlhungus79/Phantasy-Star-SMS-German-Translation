@@ -1,0 +1,71 @@
+Phantasy Star (Sega Master System) - German Translation / Deutsche Uebersetzung
+Version 1.1 - 2026-11-03
+
+================================================================================
+ ENGLISH
+================================================================================
+
+Patch file
+----------
+File:    PS1_SMS_German_v1.1.bps
+Format:  BPS
+Size:    61,900 bytes
+MD5:     822aa4877ae2df4904c7fc0794d9b4e8
+SHA-1:   7fef368fd2e20b979a352b56dfe4ae44aa4066fc
+
+(The internal patch CRC32 in the BPS footer is always 2144DF1C for any valid
+BPS file. Please use MD5/SHA-1 to identify the file.)
+
+Required original ROM (English export version, unmodified)
+----------------------------------------------------------
+Size:    524,288 bytes (512 KB)
+CRC32:   00BEF1D7
+MD5:     1110938df80f4e44c8213d7f85cfb5e6
+SHA-1:   07fcf297be4f4c9d92cd3f119a7ac48467e06838
+
+Result after patching (with FM sound driver, header region Japan)
+---------------------------------------------------------------
+Size:    1,048,576 bytes (1 MB)
+CRC32:   C742D9E3
+MD5:     faccbe57098979c99bba70711d16f23d
+SHA-1:   6e3b1226d4bb5b61a27763d4e501b2c0d5827d55
+SMS header: "TMR SEGA", checksum $98D5, region Japan
+
+Verified: the patch was applied to the original ROM with an independent BPS
+decoder. The result is byte-identical to the build; all three CRC32 values
+stored in the patch (source, target, patch) match.
+
+
+================================================================================
+ DEUTSCH
+================================================================================
+
+Patch-Datei
+-----------
+Datei:   PS1_SMS_German_v1.1.bps
+Format:  BPS
+Groesse: 61.900 Bytes
+MD5:     822aa4877ae2df4904c7fc0794d9b4e8
+SHA-1:   7fef368fd2e20b979a352b56dfe4ae44aa4066fc
+
+(Der interne Patch-CRC32 im BPS-Footer ist bei jeder gueltigen BPS-Datei
+2144DF1C. Zur Identifikation der Datei bitte MD5/SHA-1 verwenden.)
+
+Benoetigtes Original-ROM (englische Export-Version, unveraendert)
+-----------------------------------------------------------------
+Groesse: 524.288 Bytes (512 KB)
+CRC32:   00BEF1D7
+MD5:     1110938df80f4e44c8213d7f85cfb5e6
+SHA-1:   07fcf297be4f4c9d92cd3f119a7ac48467e06838
+
+Ergebnis nach dem Patchen (mit FM-Soundtreiber, Header-Region Japan)
+--------------------------------------------------------------------
+Groesse: 1.048.576 Bytes (1 MB)
+CRC32:   C742D9E3
+MD5:     faccbe57098979c99bba70711d16f23d
+SHA-1:   6e3b1226d4bb5b61a27763d4e501b2c0d5827d55
+SMS-Header: "TMR SEGA", Pruefsumme $98D5, Region Japan
+
+Verifiziert: Der Patch wurde mit einem unabhaengigen BPS-Decoder auf das
+Original-ROM angewendet. Das Ergebnis ist byte-identisch mit dem Build, alle
+drei CRC32-Werte im Patch (Quelle, Ziel, Patch) stimmen.
